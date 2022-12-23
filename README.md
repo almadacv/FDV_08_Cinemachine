@@ -3,11 +3,15 @@
 FDV_08_Cinemachine
 
 1. Reutilizamos el zombi y el duende de los ejercicios anteriores y luego agregamos una cámara Cinemachine 2D.
-En la propiedad **Follow**, hacemos referencia a nuestro zombi y dejamos la propiedad Mirar como ninguno y en la propiedad **body > Tracked Object Offset** del objeto rastreado, cambiamos X a un valor mayor que 0, lo que hace que la cámara se enfoque en una posición frente al zombi. . No cambiamos la prioridad de la cámara, que está en 10.
+En la propiedad **Follow**, hacemos referencia a nuestro zombi y dejamos la propiedad Mirar como ninguno y en la propiedad **body > Tracked Object Offset** del objeto rastreado, cambiamos X a un valor mayor que 0, lo que hace que la cámara se enfoque en una posición frente al zombi.  No cambiamos la prioridad de la cámara, que está en 10.
+
+    ![Controlador de cámara -ejercicio 1](https://github.com/almadacv/FDV_08_Cinemachine/blob/main/Gif/VCam1.png)
 
     ![Controlador de cámara -ejercicio 1](https://github.com/almadacv/FDV_08_Cinemachine/blob/main/Gif/VCam1.gif)
 
 2. Duplicamos el goblin, y le agregamos una cámara Cinemachine del **tipo Target Group Camera** y en la propiedad le agregamos los goblins al _TargetGroup_, dependiendo del valor del _peso_ y el _radio_ que le agregamos a los goblins, tenemos la cámara a pesar del movimiento de los goblins centrándolos en la pantalla.
+
+    ![Controlador de cámara -ejercicio 2](https://github.com/almadacv/FDV_08_Cinemachine/blob/main/Gif/VCam2.png)
 
     ![Controlador de cámara -ejercicio 2](https://github.com/almadacv/FDV_08_Cinemachine/blob/main/Gif/VCam2.gif)
 
